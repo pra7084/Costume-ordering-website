@@ -1,0 +1,50 @@
+.result-modal {
+  border: none;
+  border-radius: 8px;
+  padding: 2rem;
+  background-color: #D3B17B;
+}
+.modal1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.result-modal::backdrop {
+  background: rgba(0, 0, 0, 0.6);
+}
+.result-modal progress {
+  width: 100%;
+  height: 1.5rem;
+  margin: 0;
+  accent-color: #D3B17B;
+}
+.result-modal p {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+}
+.result-modal form {
+  text-align:right;
+}
+.result-modal button {
+  padding: 0.5rem 1rem;
+  border: none;
+background-color: #FBD392;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.method button{
+     padding: 0.5rem 1rem;
+     margin-left:10px;
+  border: none;
+background-color: #D3B17B;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.method{
+  margin-left:10px;
+}
+/* .result-modal button:hover {
+  background: #051715;
+} */

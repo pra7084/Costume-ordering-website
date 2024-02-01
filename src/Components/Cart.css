@@ -1,0 +1,22 @@
+.cart_item{
+    margin:8px;
+    padding:10px 10px;
+    background-color: #FBD392;
+    display:flex;
+    justify-content: space-between;
+    font-size:18px;
+    border-radius: 5px;
+}
+.cart_title{
+       align-self: center;
+       /* margin-right:10px; */
+}
+.your_cart{
+    font-size: 30px;
+    padding-left:8px;
+}
+.total{
+    font-size: 30px;
+    align-self:flex-end;
+    padding: 8px;
+}

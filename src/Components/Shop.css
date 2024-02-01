@@ -1,0 +1,26 @@
+.shop_main{
+      font-family: 'Merriweather', serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: linear-gradient(#31220b, #382e1b);
+    padding:3rem 4rem;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.product{
+    height:auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.shop_main h1{
+    color:rgba(176, 202, 255, 0.5);
+    margin:0px 0px;
+}
+@media screen and (min-width:1285px) {
+  .shop_main{
+    padding:3rem 14rem;
+  }
+  
+}
