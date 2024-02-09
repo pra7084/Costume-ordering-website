@@ -8,7 +8,7 @@ import { useRef,useImperativeHandle,forwardRef } from 'react';
                 open(){
                     dialog.current.showModal();
                 }
-        }
+       }
         
     });
      return createPortal(
